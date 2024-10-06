@@ -41,7 +41,7 @@ const Cameras = () => {
         </div>
       </div>
       <div className="Header_next">
-        <div>
+        <div className="select">
           <CiLocationOn className="location-icon" />
           <select
             id="location"
@@ -58,8 +58,8 @@ const Cameras = () => {
             ))}
           </select>
         </div>
-        <div>
-          <FaSignal />
+        <div className="select">
+          <FaSignal className="status-icon"/>
           <select
             id="status"
             value={selectedStatus}

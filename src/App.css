@@ -1,14 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Source Sans Pro";
 }
 
-.logo{
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-img{
+img {
   width: 200px;
 }
+ 

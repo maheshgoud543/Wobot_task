@@ -43,13 +43,13 @@
   }
   
   .Search-input:focus {
-    border-color: #007bff; /* Change border color on focus */
+    border-color: #007bff; 
   }
   
-  /* Flex container for dropdowns */
+
   .Header_next {
     display: flex;
-    gap: 2rem; /* Space between each select box */
+    gap: 2rem; 
     padding: 20px;
   }
   
@@ -78,7 +78,7 @@
     border-color: #007bff;
   }
   
-  /* Responsive adjustments */
+
   @media (max-width: 768px) {
     .Header {
       flex-direction: column;

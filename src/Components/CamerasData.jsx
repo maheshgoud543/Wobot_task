@@ -89,7 +89,7 @@ const CamerasData = ({
           <table>
             <thead>
               <tr>
-                <th>NAME</th>
+                <th><input type="checkbox"/>NAME</th>
                 <th>HEALTH </th>
                 <th>LOCATION</th>
                 <th>RECORDER</th>
